@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p>By Sean Darby</p>
+        <h1>To Do - List</h1>
+        <div class="add-and-remove">
+          <button id="add-dialog-btn">+</button>
+          <button id="removeall">Remove all</button>
+        </div>
+      </header>
+      
+      <main>
+        
+      <div id="container">
+        <h2>To do</h2>
+      </div>
+      <div id="checked-container">
+        <h2>Checked</h2>
+      </div>
+          
+      </main> 
+        
+        
+      <dialog id="remove-dialog">
+        <div class="dialog-content">
+          <h2>Are u sure u want to delete all Elments?</h2>
+          <div>
+            <button id="notRemoving">Cancel</button>
+            <button id="finalRemoving">Remove All</button>
+          </div>
+        </div>
+      </dialog>
+      <dialog id="add-dialog">
+        <div class="cart-content">
+          <input type="text" id="headline-input" placeholder="Title">
+          <textarea id="text"></textarea>
+          <div class="add-buttons">
+            <button id="add-btn">Add Element</button>
+            <button id="cancel-element">Cancel</button>
+          </div>
+        </div>
+      </dialog>
+</body>
+</html>
